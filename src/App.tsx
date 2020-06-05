@@ -46,7 +46,7 @@ class App extends React.Component<IProps, IState> {
       <div className="App">
         <Title today={todaysDate} />
         <Options />
-        <List listOfOptions={options} />
+        <List list={options} />
       </div>
     );
   }

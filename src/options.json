@@ -1,24 +1,35 @@
 {
-  "options": {
-    "CS": {
+  "options" : 
+  [
+    {
+      "title" : "Life" ,
+      "pretend to help bev when making food" : true,
+      "workout" : false,
+      "apply for jobs" :  false
+    },
+    {
+      "title" : "CS",
       "Algorithms": false,
       "Data Structures": false,
       "Practice Questions": false
     },
-    "Front End": {
+     {
+      "title" : "Front End",
       "Static-Sites": false,
       "React": false
     },
-    "Back End": {
+     {
+      "title" : "Back End",
       "Node": false,
       "Database": false
     },
-    "Game Dev": {
+     {
+      "title" : "Game Dev",
       "Army-Game": false
     },
-    "Software Dev": {
+     {
+       "title" : "Software Dev",
       "GIT": false,
       "Design Patterns": false
-    }
+    }]
   }
-}

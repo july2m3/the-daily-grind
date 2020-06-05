@@ -1,10 +1,17 @@
 import React from 'react';
 
-//map listItem
+import ListItem from './ListItem';
 
 function List(props: any) {
-  console.log(props);
-  return <div className="list"></div>;
+  const { list } = props;
+  const listItems = list.options ? list.options.map((eachItem:any) => 
+    <ListItem item={eachItem} key={eachItem.title} />) : null;
+
+  return (
+  <div className='list'>
+    {listItems}
+  </div>
+  );
 }
 
 export default List;

@@ -30,5 +30,19 @@ body {
 }
 
 .list {
-  border: 1px solid black;
+  width: 50%;
+  margin: 100px auto;
+}
+li {
+  margin: 1rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.list-titles {
+  font-weight: bold;
+}
+
+.tasks {
+  margin-left: 20px;
 }
