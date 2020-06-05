@@ -39,7 +39,7 @@ class App extends React.Component<IProps, IState> {
 
     this.setState( () => ({todaysDate : title}));
   }
-//dd 
+//eslint test
   render() {
     const {todaysDate, options} = this.state;
     return (
