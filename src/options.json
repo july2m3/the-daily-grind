@@ -1,35 +1,36 @@
 {
-  "options" : 
-  [
+  "options": [
     {
-      "title" : "Life" ,
-      "pretend to help bev when making food" : true,
-      "workout" : false,
-      "apply for jobs" :  false
+      "title": "Life",
+      "Meditate": false,
+      "Workout": false,
+      "Anki": false,
+      "apply for jobs": false
     },
     {
-      "title" : "CS",
+      "title": "CS",
       "Algorithms": false,
       "Data Structures": false,
       "Practice Questions": false
     },
-     {
-      "title" : "Front End",
+    {
+      "title": "Front End",
       "Static-Sites": false,
       "React": false
     },
-     {
-      "title" : "Back End",
+    {
+      "title": "Back End",
       "Node": false,
       "Database": false
     },
-     {
-      "title" : "Game Dev",
+    {
+      "title": "Game Dev",
       "Army-Game": false
     },
-     {
-       "title" : "Software Dev",
+    {
+      "title": "Software Dev",
       "GIT": false,
       "Design Patterns": false
-    }]
-  }
+    }
+  ]
+}

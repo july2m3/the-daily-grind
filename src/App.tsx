@@ -8,8 +8,8 @@ import listOfOptions from './options.json';
 
 import './style.css';
 
-const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 
 interface IProps {}
@@ -37,16 +37,29 @@ class App extends React.Component<IProps, IState> {
     const currentMonth = months[today.getMonth()];
     const title = `${currentWeekDay}, ${currentMonth} ${currentDay} `;
 
-    this.setState( () => ({todaysDate : title}));
+    this.setState(() => ({ todaysDate: title }));
   }
-//eslint test
+
+  toggleChecked = (target: String) => {
+    const { options: newOptions } = this.state;
+    for (let i = 0; i < newOptions.options.length; i++) {
+      Object.keys(newOptions.options[i]).forEach((key:any) => {
+        if (key === target) {
+          newOptions.options[i][key] = !newOptions.options[i][key];
+        }
+      });
+    }
+
+    this.setState(() => ({ options: newOptions }));
+  }
+
   render() {
-    const {todaysDate, options} = this.state;
+    const { todaysDate, options } = this.state;
     return (
-      <div className="App">
+      <div className='App'>
         <Title today={todaysDate} />
         <Options />
-        <List list={options} />
+        <List list={options} handleClick={this.toggleChecked} />
       </div>
     );
   }

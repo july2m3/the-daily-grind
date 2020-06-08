@@ -9,8 +9,7 @@ html {
 }
 
 body {
-  /* background-color:#4d5057; */
-  background-color:#d8e2dc;
+  background-color: #d8e2dc;
 }
 
 .space-between {
@@ -30,9 +29,16 @@ body {
 }
 
 .list {
-  width: 50%;
+  width: 40%;
   margin: 100px auto;
 }
+
+.fa-check-square,
+.fa-square {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
 li {
   margin: 1rem;
   list-style-type: none;
