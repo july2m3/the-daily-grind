@@ -5,10 +5,8 @@ const Title = (props: any) => {
   return (
     <header className="title">
       <h1 className="red">
-        <i className="fas fa-arrow-left space-between"></i>
         {today}
         <i className="fas fa-calendar-times" />
-        <i className="fas fa-arrow-right space-between"></i>
       </h1>
       <h3>The daily Grind</h3>
     </header>

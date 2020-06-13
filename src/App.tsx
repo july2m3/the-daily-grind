@@ -8,14 +8,34 @@ import listOfOptions from './options.json';
 
 import './style.css';
 
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-
+const days = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+];
+const months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
 
 interface IProps {}
 interface IState {
   options: any;
-  todaysDate : string;
+  todaysDate: string;
 }
 
 class App extends React.Component<IProps, IState> {
@@ -43,7 +63,7 @@ class App extends React.Component<IProps, IState> {
   toggleChecked = (target: String) => {
     const { options: newOptions } = this.state;
     for (let i = 0; i < newOptions.options.length; i++) {
-      Object.keys(newOptions.options[i]).forEach((key:any) => {
+      Object.keys(newOptions.options[i]).forEach((key: any) => {
         if (key === target) {
           newOptions.options[i][key] = !newOptions.options[i][key];
         }
@@ -51,14 +71,14 @@ class App extends React.Component<IProps, IState> {
     }
 
     this.setState(() => ({ options: newOptions }));
-  }
+  };
 
   render() {
     const { todaysDate, options } = this.state;
     return (
-      <div className='App'>
+      <div className="App">
         <Title today={todaysDate} />
-        <Options />
+        {/* <Options /> */}
         <List list={options} handleClick={this.toggleChecked} />
       </div>
     );
