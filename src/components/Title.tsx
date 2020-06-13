@@ -4,11 +4,11 @@ const Title = (props: any) => {
   const { today } = props;
   return (
     <header className="title">
-      <h1 className="red">
+      <h1>The daily Grind</h1>
+      <h3 className="red">
         {today}
         <i className="fas fa-calendar-times" />
-      </h1>
-      <h3>The daily Grind</h3>
+      </h3>
     </header>
   );
 };

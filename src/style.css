@@ -18,6 +18,7 @@ body {
 
 .title {
   scroll-margin-top: 3rem;
+  padding: 1rem;
   text-align: center;
   font-size: 2rem;
   position: fixed;
