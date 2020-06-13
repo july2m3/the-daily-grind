@@ -17,9 +17,17 @@ body {
 }
 
 .title {
-  margin-top: 100px;
+  scroll-margin-top: 3rem;
   text-align: center;
   font-size: 2rem;
+  position: fixed;
+  background-color: #333;
+  color: #d8e2dc;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 .options {
