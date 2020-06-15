@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23056b7e0ff97c57ab1110c439704758",
+    "revision": "ff5da5d45e95899cf315ac833562643b",
     "url": "/the-daily-grind/index.html"
   },
   {
-    "revision": "b70066148e207abc4f4c",
-    "url": "/the-daily-grind/static/css/main.a49b7438.chunk.css"
+    "revision": "cb7647439d7385d8aa4d",
+    "url": "/the-daily-grind/static/css/main.565a104a.chunk.css"
   },
   {
     "revision": "76c62cc607aeb39aa2cd",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-daily-grind/static/js/2.5b3472af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b70066148e207abc4f4c",
+    "revision": "cb7647439d7385d8aa4d",
     "url": "/the-daily-grind/static/js/main.7bcf45d4.chunk.js"
   },
   {
