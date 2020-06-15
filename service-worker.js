@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/the-daily-grind/precache-manifest.74bd1cb6ff39b0b39587a0f2c36f2b83.js"
+  "/the-daily-grind/precache-manifest.4af8724122623d3de32129f9399a1e6c.js"
 );
 
 self.addEventListener('message', (event) => {
