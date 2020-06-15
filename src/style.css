@@ -100,3 +100,19 @@ li {
 .tasks {
   margin-left: 20px;
 }
+
+@media (max-width: 600px) {
+  .list {
+    width: 80%;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  li {
+    margin: 5px;
+    font-size: 1.2rem;
+  }
+  .tasks {
+    margin-left: 5px;
+  }
+}
