@@ -1,38 +1,40 @@
 {
   "options": [
     {
-      "title": "Life",
-      "Meditate": false,
+      "title": "Life 🧬",
+      "Anki": false,
       "Workout": false,
-      "Anki": false
+      "Meditate": false
     },
     {
-      "title": "Get a Job",
-      "apply for jobs": false,
-      "Cracking the coding interview": false,
-      "Resume Project": false,
-      "Practice Questions": false
+      "title": "Get a Job 🏢",
+      "apply for jobs (T & TH only)": false,
+      "Read Cracking the coding interview": false,
+      "Do a practice questions (LeetCode)": false
     },
     {
-      "title": "Front End",
-      "Static-Sites": false,
-      "React": false
+      "title": "Learn 🏫",
+      "Javascript Concepts": false,
+      "Either React or Node Concepts": false,
+      "CSS Concepts": false,
+      "Testing (either Jest, Enzyme or Cypress)": false,
+      "Databases (MongoDB or PostgreSQL": false
     },
     {
-      "title": "Back End",
-      "Node": false,
-      "Database": false
+      "title": "Practice 👨‍💻",
+      "Web-Site Examples (html/css practice)": false,
+      "Journal App (full stack dev practice": false
     },
     {
-      "title": "Game Dev",
-      "Army-Game": false,
-      "JAM-Games": false
+      "title": "Game Dev 🎮",
+      "Work on Army-Game": false,
+      "Work on a JAM-Games game": false,
+      "Game Development Patterns": false
     },
     {
-      "title": "Software Dev",
+      "title": "Software Dev 💻",
       "GIT": false,
       "Design Patterns": false,
-      "Testing Practice": false,
       "Design & Development Principles": false
     }
   ]

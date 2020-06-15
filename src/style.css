@@ -8,8 +8,55 @@ html {
   font-size: 10px;
 }
 
+:root {
+  --font-color: #d8e2dc;
+}
+
 body {
-  background-color: #d8e2dc;
+  /* pattern from https://leaverou.github.io/css3patterns/#carbon */
+  color: var(--font-color);
+  background-position: 0px 5px, 10px 0px, 0px 10px, 10px 5px, 0% 0%, 0% 0%;
+  background-repeat: repeat, repeat, repeat, repeat, repeat, repeat;
+  background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
+  background-image: linear-gradient(27deg, rgb(21, 21, 21) 5px, transparent 5px),
+    linear-gradient(207deg, rgb(21, 21, 21) 5px, transparent 5px),
+    linear-gradient(27deg, rgb(34, 34, 34) 5px, transparent 5px),
+    linear-gradient(207deg, rgb(34, 34, 34) 5px, transparent 5px),
+    linear-gradient(90deg, rgb(27, 27, 27) 10px, transparent 10px),
+    linear-gradient(
+      rgb(29, 29, 29) 25%,
+      rgb(26, 26, 26) 25%,
+      rgb(26, 26, 26) 50%,
+      transparent 50%,
+      transparent 75%,
+      rgb(36, 36, 36) 75%,
+      rgb(36, 36, 36)
+    );
+  background-origin: padding-box, padding-box, padding-box, padding-box,
+    padding-box, padding-box;
+  background-clip: border-box, border-box, border-box, border-box, border-box,
+    border-box;
+  background-color: rgb(19, 19, 19);
+  background-size: 20px 20px;
+  --darkreader-inline-bgimage: linear-gradient(
+      27deg,
+      #141516 5px,
+      rgba(0, 0, 0, 0) 5px
+    ),
+    linear-gradient(207deg, #141516 5px, rgba(0, 0, 0, 0) 5px),
+    linear-gradient(27deg, #202224 5px, rgba(0, 0, 0, 0) 5px),
+    linear-gradient(207deg, #202224 5px, rgba(0, 0, 0, 0) 5px),
+    linear-gradient(90deg, #1a1b1c 10px, rgba(0, 0, 0, 0) 10px),
+    linear-gradient(
+      #1c1d1e 25%,
+      #191a1b 25%,
+      #191a1b 50%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0) 75%,
+      #222426 75%,
+      #222426
+    );
+  --darkreader-inline-bgcolor: #121314;
 }
 
 .space-between {
@@ -17,29 +64,21 @@ body {
 }
 
 .title {
-  scroll-margin-top: 3rem;
+  font-size: 3rem;
   padding: 1rem;
   text-align: center;
-  font-size: 2rem;
-  position: fixed;
-  background-color: #333;
-  color: #d8e2dc;
-  width: 100%;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
-
-.options {
-  position: absolute;
-  top: 100px;
-  left: 20px;
+  /* scroll-margin-top: 3rem; */
+  /* position: absolute; */
+  /* background-color: #333; */
+  /* top: 0; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  /* z-index: 1; */
 }
 
 .list {
   width: 40%;
-  margin: 100px auto;
+  margin: 20px auto;
 }
 
 .fa-check-square,
