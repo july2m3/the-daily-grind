@@ -8,34 +8,21 @@
     },
     {
       "title": "Get a Job 🏢",
-      "apply for jobs (T & TH only)": false,
-      "Read Cracking the coding interview": false,
-      "Do a practice questions (LeetCode)": false
+      "Job Applications (T & TH only)": false,
+      "Coding Interview Prep": false
     },
     {
-      "title": "Learn 🏫",
+      "title": "Study 🏫",
       "Javascript Concepts": false,
-      "Either React or Node Concepts": false,
-      "CSS Concepts": false,
-      "Testing (either Jest, Enzyme or Cypress)": false,
-      "Databases (MongoDB or PostgreSQL": false
+      "Front End": false,
+      "Back End": false,
+      "Software Development": false
     },
     {
-      "title": "Practice 👨‍💻",
-      "Web-Site Examples (html/css practice)": false,
-      "Journal App (full stack dev practice)": false
-    },
-    {
-      "title": "Game Dev 🎮",
-      "Work on Army-Game": false,
-      "Work on a JAM-Games game": false,
-      "Game Development Patterns": false
-    },
-    {
-      "title": "Software Dev 💻",
-      "GIT": false,
-      "Design Patterns": false,
-      "Design & Development Principles": false
+      "title": "Practice 💻",
+      "Full Stack App (Journal App)": false,
+      "Front End Project (Website-Examples)": false,
+      "JAM Games Game or Army Game 🎮": false
     }
   ]
 }

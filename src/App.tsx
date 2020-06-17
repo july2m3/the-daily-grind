@@ -2,7 +2,6 @@ import React from 'react';
 
 import Title from './components/Title';
 import List from './components/List';
-import Options from './components/Options';
 
 import listOfOptions from './options.json';
 
@@ -78,7 +77,6 @@ class App extends React.Component<IProps, IState> {
     return (
       <div className="App">
         <Title today={todaysDate} />
-        {/* <Options /> */}
         <List list={options} handleClick={this.toggleChecked} />
       </div>
     );
