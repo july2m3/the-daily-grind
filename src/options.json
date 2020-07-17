@@ -1,15 +1,16 @@
 {
   "options": [
     {
-      "title": "Life 🧬",
-      "Anki": false,
-      "Workout": false,
+      "title": "Life 🌿",
+      "Plan Day 📝", false,
+      "Anki ": false,
+      "Workout🏋️": false,
       "Meditate": false
     },
     {
       "title": "Get a Job 🏢",
-      "Job Applications (T & TH only)": false,
-      "Coding Interview Prep": false
+      "Job Applications (T & TH only)": true,
+      "Coding Interview Prep":true
     },
     {
       "title": "Study 🏫",
@@ -20,9 +21,9 @@
     },
     {
       "title": "Practice 💻",
-      "Full Stack App (Journal App)": false,
-      "Front End Project (Website-Examples)": false,
-      "JAM Games Game or Army Game 🎮": false
+      "Front End Project": false,
+      "Backend Project": false,
+      "Game Development🎮": false
     }
   ]
 }
