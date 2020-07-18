@@ -2,7 +2,7 @@
   "options": [
     {
       "title": "Life 🌿",
-      "Plan Day 📝", false,
+      "Plan Day 📝": false,
       "Anki ": false,
       "Workout🏋️": false,
       "Meditate": false
@@ -10,7 +10,7 @@
     {
       "title": "Get a Job 🏢",
       "Job Applications (T & TH only)": true,
-      "Coding Interview Prep":true
+      "Coding Interview Prep": true
     },
     {
       "title": "Study 🏫",
