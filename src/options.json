@@ -2,7 +2,7 @@
   "options": [
     {
       "title": "Life 🌿",
-      "Plan Day 📝": false,
+      "Plan Day": false,
       "Anki ": false,
       "Workout🏋️": false,
       "Meditate": false
@@ -14,16 +14,24 @@
     },
     {
       "title": "Study 🏫",
+      "UI Design Fundamentals": false,
+      "Front End Study": false,
       "Javascript Concepts": false,
-      "Front End": false,
-      "Back End": false,
-      "Software Development": false
+      "Back End Study": false,
+      "Software Development Principles": false
     },
     {
-      "title": "Practice 💻",
-      "Front End Project": false,
+      "title": "Practice 📝",
+      "Answer 1 Stack Overflow Question": false,
+      "Do Feyman Method with knowledge": false,
+      "Do a clash of code round": false
+    },
+    {
+      "title": "Projects 💻",
+      "HTML/CSS & Vanilla JS Project": false,
+      "React Project": false,
       "Backend Project": false,
-      "Game Development🎮": false
+      "Work on Game 🎮 (On Weekends)": true
     }
   ]
 }
