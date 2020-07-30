@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/the-daily-grind/static/css/main.25a79b22.chunk.css",
-    "main.js": "/the-daily-grind/static/js/main.80982e08.chunk.js",
-    "main.js.map": "/the-daily-grind/static/js/main.80982e08.chunk.js.map",
+    "main.js": "/the-daily-grind/static/js/main.e9d966ca.chunk.js",
+    "main.js.map": "/the-daily-grind/static/js/main.e9d966ca.chunk.js.map",
     "runtime-main.js": "/the-daily-grind/static/js/runtime-main.18db81d1.js",
     "runtime-main.js.map": "/the-daily-grind/static/js/runtime-main.18db81d1.js.map",
     "static/js/2.5b3472af.chunk.js": "/the-daily-grind/static/js/2.5b3472af.chunk.js",
     "static/js/2.5b3472af.chunk.js.map": "/the-daily-grind/static/js/2.5b3472af.chunk.js.map",
     "index.html": "/the-daily-grind/index.html",
-    "precache-manifest.f22805d9e23d75a46fcbb50bb6751023.js": "/the-daily-grind/precache-manifest.f22805d9e23d75a46fcbb50bb6751023.js",
+    "precache-manifest.1bf193e6427095b71ded1353acdd9f94.js": "/the-daily-grind/precache-manifest.1bf193e6427095b71ded1353acdd9f94.js",
     "service-worker.js": "/the-daily-grind/service-worker.js",
     "static/css/main.25a79b22.chunk.css.map": "/the-daily-grind/static/css/main.25a79b22.chunk.css.map",
     "static/js/2.5b3472af.chunk.js.LICENSE.txt": "/the-daily-grind/static/js/2.5b3472af.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.18db81d1.js",
     "static/js/2.5b3472af.chunk.js",
     "static/css/main.25a79b22.chunk.css",
-    "static/js/main.80982e08.chunk.js"
+    "static/js/main.e9d966ca.chunk.js"
   ]
 }
